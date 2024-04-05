@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsite Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="tab active" data-tab="home">Home</li>
+            <li class="tab" data-tab="about">About</li>
+            <li class="tab" data-tab="services">Services</li>
+            <li class="tab" data-tab="portfolio">Portfolio</li>
+            <li class="tab" data-tab="contact">Contact</li>
+        </ul>
+    </nav>
+    <div id="content">
+        <section id="home" class="tab-content active">
+            <div class="hero">
+                <h1>Bem-vindo ao Nosso Site Profissional!</h1>
+                <p>Find out solutions and quality services.</p>
+                <a href="#services" class="cta-button">Explore our services</a>
+            </div>
+            
+            <div class="features">
+                <div class="feature-item">
+                    <img src="quality.jpeg" alt="Qualidade">
+                    <h2>Quality</h2>
+                    <p>We have the compromise to do all of our services well</p>
+                </div>
+                <div class="feature-item">
+                    <img src="support.jpeg" alt="Suporte">
+                    <h2>Support 24/7</h2>
+                    <p>We can listen to you everyday and every time, just send a message</p>
+                </div>
+                <div class="feature-item">
+                    <img src="inovation.jpeg" alt="Inovação">
+                    <h2>Inovation</h2>
+                    <p>Always moving forward, looking to improve our methods of work</p>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="tab-content">
+            <h1>About Us</h1>
+            <div class="about-content">
+                <p>Here we work as a team, to give you the best results you need every day.</p>
+                <img src="techteam.jpeg" alt="Tech Team">
+            </div>
+            <div class="about-content">
+                <p>We are a company that is proud to make our customers proud of our services provided, with a highly qualified team to serve our customers.</p>
+                <img src="techhappyteam.jpeg" alt="Happy Tech Team">
+            </div>
+        </section>
+        <section id="services" class="tab-content">
+            <h1>Services</h1>
+            <p>What services we offer</p>
+            <div class="features">
+                <div class="feature-item">
+                    <img src="techsupport.jpeg" alt="Service 1">
+                    <h2>Technical support</h2>
+                    <p>We offer technical support to our clients for any problems using softwares.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="systeminstalation.jpeg" alt="Service 2">
+                    <h2>Installation</h2>
+                    <p>We offer to our clients our service of installing systems for those who have some difficult on it.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="techtraining.jpeg" alt="Service 3">
+                    <h2>Training</h2>
+                    <p>We also offer some technical training for those who have some interest and love systems, so they can learn with us and get some knowledge</p>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section id="portfolio" class="tab-content">
+            <h1>Portfolio</h1>
+            <div class="gallery">
+                <img src="codeimage1.jpeg" alt="Example Image 1">
+                <img src="codeimage2.jpeg" alt="Example Image 2">
+                <img src="codeimage3.jpeg" alt="Example Image 3">
+                <img src="codeimage4.jpeg" alt="Example Image 3">
+            </div>
+        </section>
+        <section id="contact" class="tab-content">
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                <form id="contactForm" class="contact-form">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Your message here" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2024 HTML Microsite. All rights reserved.</p>
+            <p>Your success is our success!</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -386,3 +386,7 @@ p {
     text-decoration: underline; /* Adds underline on hover for visual feedback */
     color: #0056b3; /* Darker shade of blue for hover state */
 }
+body {
+    /* Existing body styles */
+    background: linear-gradient(135deg, #eef2f3 25%, #8e9eab 100%);
+}

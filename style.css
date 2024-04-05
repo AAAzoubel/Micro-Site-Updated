@@ -368,3 +368,21 @@ p {
     color: white; /* Assuming your footer has a dark background */
     font-size: 0.9rem; /* Adjust the size as needed */
 }
+/* Additional CSS for link styling within the Services section */
+.support-link {
+    margin-top: 20px; /* Adds space above the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center; /* Centers the text */
+}
+
+.support-link a {
+    color: #007bff; /* A pleasant, clickable blue color */
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold; /* Makes the link text bold */
+}
+
+.support-link a:hover {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+    color: #0056b3; /* Darker shade of blue for hover state */
+}
